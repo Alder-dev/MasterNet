@@ -1,0 +1,15 @@
+C:\Users\ALDER\Documents\Freelancer\dev\projects\asp\MasterNet\MasterNet.Persistence\bin\Debug\net9.0\MasterNet.Persistence.deps.json
+C:\Users\ALDER\Documents\Freelancer\dev\projects\asp\MasterNet\MasterNet.Persistence\bin\Debug\net9.0\MasterNet.Persistence.dll
+C:\Users\ALDER\Documents\Freelancer\dev\projects\asp\MasterNet\MasterNet.Persistence\bin\Debug\net9.0\MasterNet.Persistence.pdb
+C:\Users\ALDER\Documents\Freelancer\dev\projects\asp\MasterNet\MasterNet.Persistence\bin\Debug\net9.0\MasterNet.Domain.dll
+C:\Users\ALDER\Documents\Freelancer\dev\projects\asp\MasterNet\MasterNet.Persistence\bin\Debug\net9.0\MasterNet.Domain.pdb
+C:\Users\ALDER\Documents\Freelancer\dev\projects\asp\MasterNet\MasterNet.Persistence\obj\Debug\net9.0\MasterNet.Persistence.csproj.AssemblyReference.cache
+C:\Users\ALDER\Documents\Freelancer\dev\projects\asp\MasterNet\MasterNet.Persistence\obj\Debug\net9.0\MasterNet.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ALDER\Documents\Freelancer\dev\projects\asp\MasterNet\MasterNet.Persistence\obj\Debug\net9.0\MasterNet.Persistence.AssemblyInfoInputs.cache
+C:\Users\ALDER\Documents\Freelancer\dev\projects\asp\MasterNet\MasterNet.Persistence\obj\Debug\net9.0\MasterNet.Persistence.AssemblyInfo.cs
+C:\Users\ALDER\Documents\Freelancer\dev\projects\asp\MasterNet\MasterNet.Persistence\obj\Debug\net9.0\MasterNet.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\ALDER\Documents\Freelancer\dev\projects\asp\MasterNet\MasterNet.Persistence\obj\Debug\net9.0\MasterNe.8A6D56B6.Up2Date
+C:\Users\ALDER\Documents\Freelancer\dev\projects\asp\MasterNet\MasterNet.Persistence\obj\Debug\net9.0\MasterNet.Persistence.dll
+C:\Users\ALDER\Documents\Freelancer\dev\projects\asp\MasterNet\MasterNet.Persistence\obj\Debug\net9.0\refint\MasterNet.Persistence.dll
+C:\Users\ALDER\Documents\Freelancer\dev\projects\asp\MasterNet\MasterNet.Persistence\obj\Debug\net9.0\MasterNet.Persistence.pdb
+C:\Users\ALDER\Documents\Freelancer\dev\projects\asp\MasterNet\MasterNet.Persistence\obj\Debug\net9.0\ref\MasterNet.Persistence.dll

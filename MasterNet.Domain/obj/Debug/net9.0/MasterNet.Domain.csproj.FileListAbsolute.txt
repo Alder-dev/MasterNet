@@ -1,0 +1,11 @@
+C:\Users\ALDER\Documents\Freelancer\dev\projects\asp\MasterNet\MasterNet.Domain\bin\Debug\net9.0\MasterNet.Domain.deps.json
+C:\Users\ALDER\Documents\Freelancer\dev\projects\asp\MasterNet\MasterNet.Domain\bin\Debug\net9.0\MasterNet.Domain.dll
+C:\Users\ALDER\Documents\Freelancer\dev\projects\asp\MasterNet\MasterNet.Domain\bin\Debug\net9.0\MasterNet.Domain.pdb
+C:\Users\ALDER\Documents\Freelancer\dev\projects\asp\MasterNet\MasterNet.Domain\obj\Debug\net9.0\MasterNet.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ALDER\Documents\Freelancer\dev\projects\asp\MasterNet\MasterNet.Domain\obj\Debug\net9.0\MasterNet.Domain.AssemblyInfoInputs.cache
+C:\Users\ALDER\Documents\Freelancer\dev\projects\asp\MasterNet\MasterNet.Domain\obj\Debug\net9.0\MasterNet.Domain.AssemblyInfo.cs
+C:\Users\ALDER\Documents\Freelancer\dev\projects\asp\MasterNet\MasterNet.Domain\obj\Debug\net9.0\MasterNet.Domain.csproj.CoreCompileInputs.cache
+C:\Users\ALDER\Documents\Freelancer\dev\projects\asp\MasterNet\MasterNet.Domain\obj\Debug\net9.0\MasterNet.Domain.dll
+C:\Users\ALDER\Documents\Freelancer\dev\projects\asp\MasterNet\MasterNet.Domain\obj\Debug\net9.0\refint\MasterNet.Domain.dll
+C:\Users\ALDER\Documents\Freelancer\dev\projects\asp\MasterNet\MasterNet.Domain\obj\Debug\net9.0\MasterNet.Domain.pdb
+C:\Users\ALDER\Documents\Freelancer\dev\projects\asp\MasterNet\MasterNet.Domain\obj\Debug\net9.0\ref\MasterNet.Domain.dll
