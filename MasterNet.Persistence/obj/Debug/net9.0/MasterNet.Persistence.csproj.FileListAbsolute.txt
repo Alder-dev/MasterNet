@@ -13,3 +13,4 @@ C:\Users\ALDER\Documents\Freelancer\dev\projects\asp\MasterNet\MasterNet.Persist
 C:\Users\ALDER\Documents\Freelancer\dev\projects\asp\MasterNet\MasterNet.Persistence\obj\Debug\net9.0\refint\MasterNet.Persistence.dll
 C:\Users\ALDER\Documents\Freelancer\dev\projects\asp\MasterNet\MasterNet.Persistence\obj\Debug\net9.0\MasterNet.Persistence.pdb
 C:\Users\ALDER\Documents\Freelancer\dev\projects\asp\MasterNet\MasterNet.Persistence\obj\Debug\net9.0\ref\MasterNet.Persistence.dll
+C:\Users\ALDER\Documents\Freelancer\dev\projects\asp\MasterNet\MasterNet.Persistence\obj\Debug\net9.0\MasterNet.Persistence.sourcelink.json

@@ -33,3 +33,4 @@ C:\Users\ALDER\Documents\Freelancer\dev\projects\asp\MasterNet\MasterNet.WebApi\
 C:\Users\ALDER\Documents\Freelancer\dev\projects\asp\MasterNet\MasterNet.WebApi\obj\Debug\net9.0\MasterNet.WebApi.pdb
 C:\Users\ALDER\Documents\Freelancer\dev\projects\asp\MasterNet\MasterNet.WebApi\obj\Debug\net9.0\MasterNet.WebApi.genruntimeconfig.cache
 C:\Users\ALDER\Documents\Freelancer\dev\projects\asp\MasterNet\MasterNet.WebApi\obj\Debug\net9.0\ref\MasterNet.WebApi.dll
+C:\Users\ALDER\Documents\Freelancer\dev\projects\asp\MasterNet\MasterNet.WebApi\obj\Debug\net9.0\MasterNet.WebApi.sourcelink.json
