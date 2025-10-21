@@ -1,6 +1,6 @@
 namespace MasterNet.Domain;
 
-public class Photo
+public class Photo : BaseEntity
 {
     public string? Url { get; set; }
     public Guid CursoId { get; set; }

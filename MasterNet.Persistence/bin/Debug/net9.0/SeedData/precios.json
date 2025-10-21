@@ -1,0 +1,26 @@
+[
+  {
+    "Id": "c1a1f3e2-6b3a-4d6a-9f1a-111111111111",
+    "Nombre": "Standard Plan",
+    "PrecioActual": 49.99,
+    "PrecioPromocion": 29.99
+  },
+  {
+    "Id": "c1a1f3e2-6b3a-4d6a-9f1a-222222222222",
+    "Nombre": "Premium Plan",
+    "PrecioActual": 99.99,
+    "PrecioPromocion": 69.99
+  },
+  {
+    "Id": "c1a1f3e2-6b3a-4d6a-9f1a-333333333333",
+    "Nombre": "Basic Plan",
+    "PrecioActual": 19.99,
+    "PrecioPromocion": 9.99
+  },
+  {
+    "Id": "c1a1f3e2-6b3a-4d6a-9f1a-444444444444",
+    "Nombre": "Enterprise Plan",
+    "PrecioActual": 199.99,
+    "PrecioPromocion": 149.99
+  }
+]
