@@ -29,6 +29,9 @@ public class MasterNetDbContext : DbContext
             try
             {
                 await SeedDatabase.SeedPreciosAsync(masterNetDbContext, logger, cancellationToken);
+                await SeedDatabase.SeedInstructoresAsync(masterNetDbContext, logger, cancellationToken);
+                await SeedDatabase.SeedCursosAsync(masterNetDbContext, logger, cancellationToken);
+                await SeedDatabase.SeedCalificacionesAsync(masterNetDbContext, logger, cancellationToken);
             }
             catch (Exception ex)
             {
