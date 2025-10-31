@@ -1,5 +1,7 @@
 using MasterNet.Domain;
 using MasterNet.Persistence;
+using MasterNet.Persistence.Models;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
@@ -13,6 +15,16 @@ services.AddLogging(l =>
 
 services.AddDbContext<MasterNetDbContext>();
 
+services.AddIdentityCore<AppUser>(options =>
+{
+    options.Password.RequiredLength = 6;
+    options.Password.RequireNonAlphanumeric = false;
+    options.Password.RequireLowercase = true;
+    options.Password.RequireUppercase = true;
+    options.Password.RequireDigit = true;
+    options.User.RequireUniqueEmail = true;
+}).AddRoles<IdentityRole>().AddEntityFrameworkStores<MasterNetDbContext>();
+
 var provider = services.BuildServiceProvider();
 
 try
@@ -22,26 +34,12 @@ try
     await context.Database.MigrateAsync();
 
     Console.WriteLine("La migracion/sedding se ha realizado con exito");
- 
-    // var newCurso = new Curso
-    // {
-    //     Id = Guid.NewGuid(),
-    //     Titulo = "Curso de C#",
-    //     Descripcion = "Curso de C# para principiantes con MASTER.NET",
-    //     FechaPublicacion = DateTime.Now
-    // };
 
-    // context.Cursos!.Add(newCurso);
-    // await context.SaveChangesAsync();
+    var userManager = scope.ServiceProvider.GetRequiredService<UserManager<AppUser>>();
+    var roleManager = scope.ServiceProvider.GetRequiredService<RoleManager<IdentityRole>>();
+    var logger = scope.ServiceProvider.GetRequiredService<ILoggerFactory>().CreateLogger("SeedIdentity");
 
-    // var cursos = await context.Cursos!.ToListAsync();
-
-    // Console.WriteLine($"Cantidad de cursos: {cursos.Count}");
-
-    // foreach (var curso in cursos)
-    // {
-    //     Console.WriteLine($"{curso.Id} - {curso.Titulo}");
-    // }
+    await SeedDatabase.SeedRolesAndUsersAsync(userManager, roleManager, logger, CancellationToken.None);
 }
 catch (Exception ex)
 {

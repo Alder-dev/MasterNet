@@ -15,16 +15,14 @@ public static class SeedDatabase
 {
 
     public static async Task SeedRolesAndUsersAsync(
-        DbContext context,
+        UserManager<AppUser> userManager,
+        RoleManager<IdentityRole> roleManager,
         ILogger? logger,
         CancellationToken cancellationToken
     )
     {
         try
         {
-            var userManager = context.GetService<UserManager<AppUser>>();
-            var roleManager = context.GetService<RoleManager<IdentityRole>>();
-
             if (userManager.Users.Any()) return;
 
             var adminId = "5d3267f5-1d50-4215-8516-f45fe4557705";
