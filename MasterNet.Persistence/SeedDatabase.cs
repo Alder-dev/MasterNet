@@ -1,5 +1,10 @@
 using System.Collections.Frozen;
+using System.Security.Claims;
 using MasterNet.Domain;
+using MasterNet.Persistence.Models;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.Extensions.Logging;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
@@ -8,6 +13,93 @@ namespace MasterNet.Persistence;
 
 public static class SeedDatabase
 {
+
+    public static async Task SeedRolesAndUsersAsync(
+        DbContext context,
+        ILogger? logger,
+        CancellationToken cancellationToken
+    )
+    {
+        try
+        {
+            var userManager = context.GetService<UserManager<AppUser>>();
+            var roleManager = context.GetService<RoleManager<IdentityRole>>();
+
+            if (userManager.Users.Any()) return;
+
+            var adminId = "5d3267f5-1d50-4215-8516-f45fe4557705";
+            var clientId = "d0ed23d3-3a70-4d6d-baec-fd4f338fbe60";
+
+            var roleAdmin = new IdentityRole
+            {
+                Id = adminId,
+                Name = CustomRoles.ADMIN,
+                NormalizedName = CustomRoles.ADMIN.ToUpperInvariant()
+            };
+
+            var roleClient = new IdentityRole
+            {
+                Id = clientId,
+                Name = CustomRoles.CLIENT,
+                NormalizedName = CustomRoles.CLIENT.ToUpperInvariant()
+            };
+
+            if (!await roleManager.RoleExistsAsync(CustomRoles.ADMIN))
+            {
+                await roleManager.CreateAsync(roleAdmin);
+            }
+
+            if (!await roleManager.RoleExistsAsync(CustomRoles.CLIENT))
+            {
+                await roleManager.CreateAsync(roleClient);
+            }
+
+            var userAdmin = new AppUser
+            {
+                NombreCompleto = "Alder Palacios",
+                UserName = "alderdev",
+                Email = "pkeiner08@gmail.com",
+            };
+
+            await userManager.CreateAsync(userAdmin, "Aa123456!");
+
+            var userClient = new AppUser
+            {
+                NombreCompleto = "Angelica Palacios",
+                UserName = "sully03",
+                Email = "angelica@gmail.com",
+            };
+
+            await userManager.CreateAsync(userClient, "Aa123456!");
+
+            // agregar los roles a los usuarios
+            await userManager.AddToRoleAsync(userAdmin, CustomRoles.ADMIN);
+            await userManager.AddToRoleAsync(userClient, CustomRoles.CLIENT);
+
+            // agregar a cada rol sus respectivos claims (policies)
+            await roleManager.AddClaimAsync(roleAdmin, new Claim(CustomClaims.POLICIES, PolicyMaster.CURSO_READ));
+            await roleManager.AddClaimAsync(roleAdmin, new Claim(CustomClaims.POLICIES, PolicyMaster.CURSO_WRITE));
+            await roleManager.AddClaimAsync(roleAdmin, new Claim(CustomClaims.POLICIES, PolicyMaster.CURSO_UPDATE));
+            await roleManager.AddClaimAsync(roleAdmin, new Claim(CustomClaims.POLICIES, PolicyMaster.CURSO_DELETE));
+            await roleManager.AddClaimAsync(roleAdmin, new Claim(CustomClaims.POLICIES, PolicyMaster.INSTRUCTOR_READ));
+            await roleManager.AddClaimAsync(roleAdmin, new Claim(CustomClaims.POLICIES, PolicyMaster.INSTRUCTOR_CREATE));
+            await roleManager.AddClaimAsync(roleAdmin, new Claim(CustomClaims.POLICIES, PolicyMaster.INSTRUCTOR_UPDATE));
+            await roleManager.AddClaimAsync(roleAdmin, new Claim(CustomClaims.POLICIES, PolicyMaster.COMENTARIO_READ));
+            await roleManager.AddClaimAsync(roleAdmin, new Claim(CustomClaims.POLICIES, PolicyMaster.COMENTARIO_CREATE));
+            await roleManager.AddClaimAsync(roleAdmin, new Claim(CustomClaims.POLICIES, PolicyMaster.COMENTARIO_DELETE));
+
+            await roleManager.AddClaimAsync(roleClient, new Claim(CustomClaims.POLICIES, PolicyMaster.CURSO_READ));
+            await roleManager.AddClaimAsync(roleClient, new Claim(CustomClaims.POLICIES, PolicyMaster.INSTRUCTOR_READ));
+            await roleManager.AddClaimAsync(roleClient, new Claim(CustomClaims.POLICIES, PolicyMaster.COMENTARIO_READ));
+            await roleManager.AddClaimAsync(roleClient, new Claim(CustomClaims.POLICIES, PolicyMaster.COMENTARIO_CREATE));
+        }
+        catch (Exception ex)
+        {
+            logger?.LogWarning(ex, "Fallo el proceso de identity seed");
+        }
+    }
+
+
     public static async Task SeedPreciosAsync(
         MasterNetDbContext dbContext,
         ILogger? logger,
