@@ -1,0 +1,1 @@
+namespace MasterNet.Application.Cursos.CursoCreate;

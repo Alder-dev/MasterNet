@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MasterNet.WebApi", "MasterN
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MasterNet.Persistence", "MasterNet.Persistence\MasterNet.Persistence.csproj", "{722B82BD-FB9F-4549-B1F4-D6684CC0BFAB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MasterNet.Application", "MasterNet.Application\MasterNet.Application.csproj", "{3C11983E-01FE-49FD-913F-45A0619B32BB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -55,6 +57,18 @@ Global
 		{722B82BD-FB9F-4549-B1F4-D6684CC0BFAB}.Release|x64.Build.0 = Release|Any CPU
 		{722B82BD-FB9F-4549-B1F4-D6684CC0BFAB}.Release|x86.ActiveCfg = Release|Any CPU
 		{722B82BD-FB9F-4549-B1F4-D6684CC0BFAB}.Release|x86.Build.0 = Release|Any CPU
+		{3C11983E-01FE-49FD-913F-45A0619B32BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C11983E-01FE-49FD-913F-45A0619B32BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C11983E-01FE-49FD-913F-45A0619B32BB}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{3C11983E-01FE-49FD-913F-45A0619B32BB}.Debug|x64.Build.0 = Debug|Any CPU
+		{3C11983E-01FE-49FD-913F-45A0619B32BB}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{3C11983E-01FE-49FD-913F-45A0619B32BB}.Debug|x86.Build.0 = Debug|Any CPU
+		{3C11983E-01FE-49FD-913F-45A0619B32BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C11983E-01FE-49FD-913F-45A0619B32BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C11983E-01FE-49FD-913F-45A0619B32BB}.Release|x64.ActiveCfg = Release|Any CPU
+		{3C11983E-01FE-49FD-913F-45A0619B32BB}.Release|x64.Build.0 = Release|Any CPU
+		{3C11983E-01FE-49FD-913F-45A0619B32BB}.Release|x86.ActiveCfg = Release|Any CPU
+		{3C11983E-01FE-49FD-913F-45A0619B32BB}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
