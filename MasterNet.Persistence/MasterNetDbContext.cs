@@ -1,10 +1,7 @@
-using Bogus;
 using MasterNet.Domain;
 using MasterNet.Persistence.Models;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Infrastructure;
-using Microsoft.Extensions.Logging;
 
 namespace MasterNet.Persistence;
 
@@ -17,30 +14,6 @@ public class MasterNetDbContext : IdentityDbContext<AppUser>
 
     public MasterNetDbContext() { }
     public MasterNetDbContext(DbContextOptions<MasterNetDbContext> options) : base(options) { }
-
-    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-    {
-        optionsBuilder.UseSqlite("Data Source=MasterNet.db")
-        .EnableDetailedErrors()
-        .LogTo(Console.WriteLine, LogLevel.Information)
-        .EnableSensitiveDataLogging()
-        .UseAsyncSeeding(async (context, status, cancellationToken) =>
-        {
-            var masterNetDbContext = (MasterNetDbContext)context;
-            var logger = context.GetService<ILogger<MasterNetDbContext>>();
-            try
-            {
-                await SeedDatabase.SeedPreciosAsync(masterNetDbContext, logger, cancellationToken);
-                await SeedDatabase.SeedInstructoresAsync(masterNetDbContext, logger, cancellationToken);
-                await SeedDatabase.SeedCursosAsync(masterNetDbContext, logger, cancellationToken);
-                await SeedDatabase.SeedCalificacionesAsync(masterNetDbContext, logger, cancellationToken);
-            }
-            catch (Exception ex)
-            {
-                logger?.LogError(ex, "Fallo cargando la data de precios");
-            }
-        });
-    }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {

@@ -1,0 +1,602 @@
+[
+  {
+    "Id": "00000000-0000-0000-0000-000000000001",
+    "Apellidos": "Doe",
+    "Nombre": "John",
+    "Grado": "PhD in Computer Science"
+  },
+  {
+    "Id": "00000000-0000-0000-0000-000000000002",
+    "Apellidos": "Smith",
+    "Nombre": "Jane",
+    "Grado": "MSc in Software Engineering"
+  },
+  {
+    "Id": "00000000-0000-0000-0000-000000000003",
+    "Apellidos": "Brown",
+    "Nombre": "Michael",
+    "Grado": "MSc in Data Science"
+  },
+  {
+    "Id": "00000000-0000-0000-0000-000000000004",
+    "Apellidos": "Davis",
+    "Nombre": "Emily",
+    "Grado": "PhD in Artificial Intelligence"
+  },
+  {
+    "Id": "00000000-0000-0000-0000-000000000005",
+    "Apellidos": "Wilson",
+    "Nombre": "David",
+    "Grado": "MSc in Cybersecurity"
+  },
+  {
+    "Id": "00000000-0000-0000-0000-000000000006",
+    "Apellidos": "Johnson",
+    "Nombre": "Sarah",
+    "Grado": "MSc in Web Development"
+  },
+  {
+    "Id": "00000000-0000-0000-0000-000000000007",
+    "Apellidos": "Martinez",
+    "Nombre": "Robert",
+    "Grado": "BSc in Software Development"
+  },
+  {
+    "Id": "00000000-0000-0000-0000-000000000008",
+    "Apellidos": "Garcia",
+    "Nombre": "Laura",
+    "Grado": "MSc in Cloud Computing"
+  },
+  {
+    "Id": "00000000-0000-0000-0000-000000000009",
+    "Apellidos": "Rodriguez",
+    "Nombre": "Daniel",
+    "Grado": "PhD in Database Systems"
+  },
+  {
+    "Id": "00000000-0000-0000-0000-00000000000a",
+    "Apellidos": "Martins",
+    "Nombre": "Anna",
+    "Grado": "MSc in AI and Machine Learning"
+  },
+  {
+    "Id": "00000000-0000-0000-0000-00000000000b",
+    "Apellidos": "Lee",
+    "Nombre": "James",
+    "Grado": "PhD in Software Architecture"
+  },
+  {
+    "Id": "00000000-0000-0000-0000-00000000000c",
+    "Apellidos": "Taylor",
+    "Nombre": "Olivia",
+    "Grado": "MSc in Mobile Development"
+  },
+  {
+    "Id": "00000000-0000-0000-0000-00000000000d",
+    "Apellidos": "Anderson",
+    "Nombre": "Mark",
+    "Grado": "BSc in Computer Networking"
+  },
+  {
+    "Id": "00000000-0000-0000-0000-00000000000e",
+    "Apellidos": "Thomas",
+    "Nombre": "Sophia",
+    "Grado": "MSc in Software Testing"
+  },
+  {
+    "Id": "00000000-0000-0000-0000-00000000000f",
+    "Apellidos": "Hernandez",
+    "Nombre": "William",
+    "Grado": "PhD in Computer Graphics"
+  },
+  {
+    "Id": "00000000-0000-0000-0000-000000000010",
+    "Apellidos": "Lopez",
+    "Nombre": "Grace",
+    "Grado": "MSc in UX Design"
+  },
+  {
+    "Id": "00000000-0000-0000-0000-000000000011",
+    "Apellidos": "Gonzalez",
+    "Nombre": "Henry",
+    "Grado": "MSc in DevOps"
+  },
+  {
+    "Id": "00000000-0000-0000-0000-000000000012",
+    "Apellidos": "Perez",
+    "Nombre": "Chloe",
+    "Grado": "PhD in Data Engineering"
+  },
+  {
+    "Id": "00000000-0000-0000-0000-000000000013",
+    "Apellidos": "Sanchez",
+    "Nombre": "Ethan",
+    "Grado": "MSc in Distributed Systems"
+  },
+  {
+    "Id": "00000000-0000-0000-0000-000000000014",
+    "Apellidos": "Ramirez",
+    "Nombre": "Mia",
+    "Grado": "BSc in Information Systems"
+  },
+  {
+    "Id": "00000000-0000-0000-0000-000000000015",
+    "Apellidos": "Clark",
+    "Nombre": "Liam",
+    "Grado": "MSc in Computer Networks"
+  },
+  {
+    "Id": "00000000-0000-0000-0000-000000000016",
+    "Apellidos": "Lewis",
+    "Nombre": "Ava",
+    "Grado": "PhD in Human-Computer Interaction"
+  },
+  {
+    "Id": "00000000-0000-0000-0000-000000000017",
+    "Apellidos": "Walker",
+    "Nombre": "Noah",
+    "Grado": "MSc in Software Quality Assurance"
+  },
+  {
+    "Id": "00000000-0000-0000-0000-000000000018",
+    "Apellidos": "Hall",
+    "Nombre": "Isabella",
+    "Grado": "MBA in Technology Management"
+  },
+  {
+    "Id": "00000000-0000-0000-0000-000000000019",
+    "Apellidos": "Allen",
+    "Nombre": "Mason",
+    "Grado": "MSc in Embedded Systems"
+  },
+  {
+    "Id": "00000000-0000-0000-0000-00000000001a",
+    "Apellidos": "Young",
+    "Nombre": "Zoe",
+    "Grado": "MSc in Software Maintenance"
+  },
+  {
+    "Id": "00000000-0000-0000-0000-00000000001b",
+    "Apellidos": "King",
+    "Nombre": "Natalie",
+    "Grado": "PhD in Software Process Improvement"
+  },
+  {
+    "Id": "00000000-0000-0000-0000-00000000001c",
+    "Apellidos": "Wright",
+    "Nombre": "Owen",
+    "Grado": "MSc in Systems Analysis"
+  },
+  {
+    "Id": "00000000-0000-0000-0000-00000000001d",
+    "Apellidos": "Scott",
+    "Nombre": "Hannah",
+    "Grado": "MBA in IT Management"
+  },
+  {
+    "Id": "00000000-0000-0000-0000-00000000001e",
+    "Apellidos": "Green",
+    "Nombre": "Jack",
+    "Grado": "BSc in Network Engineering"
+  },
+  {
+    "Id": "00000000-0000-0000-0000-00000000001f",
+    "Apellidos": "Adams",
+    "Nombre": "Lily",
+    "Grado": "MSc in Digital Media"
+  },
+  {
+    "Id": "00000000-0000-0000-0000-000000000020",
+    "Apellidos": "Baker",
+    "Nombre": "Ryan",
+    "Grado": "MSc in Information Systems"
+  },
+  {
+    "Id": "00000000-0000-0000-0000-000000000021",
+    "Apellidos": "Nelson",
+    "Nombre": "Ella",
+    "Grado": "PhD in Intelligent Systems"
+  },
+  {
+    "Id": "00000000-0000-0000-0000-000000000022",
+    "Apellidos": "Carter",
+    "Nombre": "Caleb",
+    "Grado": "MSc in Business Analytics"
+  },
+  {
+    "Id": "00000000-0000-0000-0000-000000000023",
+    "Apellidos": "Mitchell",
+    "Nombre": "Samantha",
+    "Grado": "MSc in Ethical Hacking"
+  },
+  {
+    "Id": "00000000-0000-0000-0000-000000000024",
+    "Apellidos": "Perez",
+    "Nombre": "Aaron",
+    "Grado": "MSc in Cyber-Physical Systems"
+  },
+  {
+    "Id": "00000000-0000-0000-0000-000000000025",
+    "Apellidos": "Roberts",
+    "Nombre": "Madison",
+    "Grado": "MBA in Digital Transformation"
+  },
+  {
+    "Id": "00000000-0000-0000-0000-000000000026",
+    "Apellidos": "Turner",
+    "Nombre": "Tyler",
+    "Grado": "MSc in Secure Software Development"
+  },
+  {
+    "Id": "00000000-0000-0000-0000-000000000027",
+    "Apellidos": "Phillips",
+    "Nombre": "Amber",
+    "Grado": "PhD in Software Reliability"
+  },
+  {
+    "Id": "00000000-0000-0000-0000-000000000028",
+    "Apellidos": "Campbell",
+    "Nombre": "Connor",
+    "Grado": "MSc in Digital Forensics"
+  },
+  {
+    "Id": "00000000-0000-0000-0000-000000000029",
+    "Apellidos": "Parker",
+    "Nombre": "Brooke",
+    "Grado": "BSc in Health Information Management"
+  },
+  {
+    "Id": "00000000-0000-0000-0000-00000000002a",
+    "Apellidos": "Evans",
+    "Nombre": "Ian",
+    "Grado": "MSc in Software Performance Engineering"
+  },
+  {
+    "Id": "00000000-0000-0000-0000-00000000002b",
+    "Apellidos": "Edwards",
+    "Nombre": "Claire",
+    "Grado": "PhD in Software Innovation"
+  },
+  {
+    "Id": "00000000-0000-0000-0000-00000000002c",
+    "Apellidos": "Collins",
+    "Nombre": "Blake",
+    "Grado": "MBA in Knowledge Management"
+  },
+  {
+    "Id": "00000000-0000-0000-0000-00000000002d",
+    "Apellidos": "Stewart",
+    "Nombre": "Kaitlyn",
+    "Grado": "MSc in Social Media Analytics"
+  },
+  {
+    "Id": "00000000-0000-0000-0000-00000000002e",
+    "Apellidos": "Morris",
+    "Nombre": "Gavin",
+    "Grado": "BSc in Computer Systems Engineering"
+  },
+  {
+    "Id": "00000000-0000-0000-0000-00000000002f",
+    "Apellidos": "Rogers",
+    "Nombre": "Paige",
+    "Grado": "MSc in User Experience Design"
+  },
+  {
+    "Id": "00000000-0000-0000-0000-000000000030",
+    "Apellidos": "Reed",
+    "Nombre": "Dylan",
+    "Grado": "PhD in Smart Technologies"
+  },
+  {
+    "Id": "00000000-0000-0000-0000-000000000031",
+    "Apellidos": "Cook",
+    "Nombre": "Jasmine",
+    "Grado": "MSc in AI and Machine Learning"
+  },
+  {
+    "Id": "00000000-0000-0000-0000-000000000032",
+    "Apellidos": "Bell",
+    "Nombre": "Evan",
+    "Grado": "MSc in Digital Strategy"
+  },
+  {
+    "Id": "00000000-0000-0000-0000-000000000033",
+    "Apellidos": "Murphy",
+    "Nombre": "Rebecca",
+    "Grado": "BSc in Digital Marketing"
+  },
+  {
+    "Id": "00000000-0000-0000-0000-000000000034",
+    "Apellidos": "Bailey",
+    "Nombre": "Tristan",
+    "Grado": "PhD in Software Metrics"
+  },
+  {
+    "Id": "00000000-0000-0000-0000-000000000035",
+    "Apellidos": "Cooper",
+    "Nombre": "Vanessa",
+    "Grado": "MSc in Ethical Hacking"
+  },
+  {
+    "Id": "00000000-0000-0000-0000-000000000036",
+    "Apellidos": "Gray",
+    "Nombre": "Miles",
+    "Grado": "BSc in Network Administration"
+  },
+  {
+    "Id": "00000000-0000-0000-0000-000000000037",
+    "Apellidos": "James",
+    "Nombre": "Alexandra",
+    "Grado": "PhD in Cloud Computing"
+  },
+  {
+    "Id": "00000000-0000-0000-0000-000000000038",
+    "Apellidos": "Foster",
+    "Nombre": "Zachary",
+    "Grado": "MSc in System Security"
+  },
+  {
+    "Id": "00000000-0000-0000-0000-000000000039",
+    "Apellidos": "Diaz",
+    "Nombre": "Courtney",
+    "Grado": "MSc in Social Media Analytics"
+  },
+  {
+    "Id": "00000000-0000-0000-0000-00000000003a",
+    "Apellidos": "Harper",
+    "Nombre": "Levi",
+    "Grado": "MSc in Computer Forensics"
+  },
+  {
+    "Id": "00000000-0000-0000-0000-00000000003b",
+    "Apellidos": "Wells",
+    "Nombre": "Maya",
+    "Grado": "PhD in Intelligent Systems"
+  },
+  {
+    "Id": "00000000-0000-0000-0000-00000000003c",
+    "Apellidos": "Hayes",
+    "Nombre": "Nolan",
+    "Grado": "MBA in Digital Innovation"
+  },
+  {
+    "Id": "00000000-0000-0000-0000-00000000003d",
+    "Apellidos": "Riley",
+    "Nombre": "Ariana",
+    "Grado": "MSc in Secure Software Development"
+  },
+  {
+    "Id": "00000000-0000-0000-0000-00000000003e",
+    "Apellidos": "Patterson",
+    "Nombre": "Julian",
+    "Grado": "BSc in IT Project Management"
+  },
+  {
+    "Id": "00000000-0000-0000-0000-00000000003f",
+    "Apellidos": "Jordan",
+    "Nombre": "Melanie",
+    "Grado": "PhD in Software Engineering Management"
+  },
+  {
+    "Id": "00000000-0000-0000-0000-000000000040",
+    "Apellidos": "Gibson",
+    "Nombre": "Gordon",
+    "Grado": "MSc in Blockchain Technology"
+  },
+  {
+    "Id": "00000000-0000-0000-0000-000000000041",
+    "Apellidos": "Blake",
+    "Nombre": "Fiona",
+    "Grado": "MSc in Data Visualization"
+  },
+  {
+    "Id": "00000000-0000-0000-0000-000000000042",
+    "Apellidos": "Hunt",
+    "Nombre": "Derek",
+    "Grado": "BSc in IT Governance"
+  },
+  {
+    "Id": "00000000-0000-0000-0000-000000000043",
+    "Apellidos": "Price",
+    "Nombre": "Sienna",
+    "Grado": "MSc in Software Process Improvement"
+  },
+  {
+    "Id": "00000000-0000-0000-0000-000000000044",
+    "Apellidos": "Kim",
+    "Nombre": "Trevor",
+    "Grado": "PhD in Network Security"
+  },
+  {
+    "Id": "00000000-0000-0000-0000-000000000045",
+    "Apellidos": "Reynolds",
+    "Nombre": "Brody",
+    "Grado": "MSc in Ethical Hacking"
+  },
+  {
+    "Id": "00000000-0000-0000-0000-000000000046",
+    "Apellidos": "Fox",
+    "Nombre": "Angela",
+    "Grado": "PhD in Software Reliability"
+  },
+  {
+    "Id": "00000000-0000-0000-0000-000000000047",
+    "Apellidos": "Hughes",
+    "Nombre": "Damon",
+    "Grado": "MSc in Cloud Architecture"
+  },
+  {
+    "Id": "00000000-0000-0000-0000-000000000048",
+    "Apellidos": "Bryant",
+    "Nombre": "Nina",
+    "Grado": "BSc in IT Service Management"
+  },
+  {
+    "Id": "00000000-0000-0000-0000-000000000049",
+    "Apellidos": "Grant",
+    "Nombre": "Seth",
+    "Grado": "MSc in Software Performance Engineering"
+  },
+  {
+    "Id": "00000000-0000-0000-0000-00000000004a",
+    "Apellidos": "Armstrong",
+    "Nombre": "Bianca",
+    "Grado": "PhD in Human-Computer Interaction"
+  },
+  {
+    "Id": "00000000-0000-0000-0000-00000000004b",
+    "Apellidos": "Wells",
+    "Nombre": "Colin",
+    "Grado": "MSc in Business Continuity Management"
+  },
+  {
+    "Id": "00000000-0000-0000-0000-00000000004c",
+    "Apellidos": "Bennett",
+    "Nombre": "Renee",
+    "Grado": "MSc in Digital Strategy"
+  },
+  {
+    "Id": "00000000-0000-0000-0000-00000000004d",
+    "Apellidos": "Ross",
+    "Nombre": "Kieran",
+    "Grado": "PhD in Software Metrics"
+  },
+  {
+    "Id": "00000000-0000-0000-0000-00000000004e",
+    "Apellidos": "Rice",
+    "Nombre": "Mabel",
+    "Grado": "MBA in Information Assurance"
+  },
+  {
+    "Id": "00000000-0000-0000-0000-00000000004f",
+    "Apellidos": "Fisher",
+    "Nombre": "Sergio",
+    "Grado": "MSc in Network Administration"
+  },
+  {
+    "Id": "00000000-0000-0000-0000-000000000050",
+    "Apellidos": "Stone",
+    "Nombre": "Iris",
+    "Grado": "PhD in Software Innovation"
+  },
+  {
+    "Id": "00000000-0000-0000-0000-000000000051",
+    "Apellidos": "Cole",
+    "Nombre": "Victor",
+    "Grado": "MSc in Network Security"
+  },
+  {
+    "Id": "00000000-0000-0000-0000-000000000052",
+    "Apellidos": "Bennett",
+    "Nombre": "Maya",
+    "Grado": "MSc in Cloud Native Development"
+  },
+  {
+    "Id": "00000000-0000-0000-0000-000000000053",
+    "Apellidos": "Reyes",
+    "Nombre": "Julio",
+    "Grado": "PhD in Distributed Databases"
+  },
+  {
+    "Id": "00000000-0000-0000-0000-000000000054",
+    "Apellidos": "Shah",
+    "Nombre": "Priya",
+    "Grado": "MSc in Machine Learning"
+  },
+  {
+    "Id": "00000000-0000-0000-0000-000000000055",
+    "Apellidos": "Ortiz",
+    "Nombre": "Hector",
+    "Grado": "MSc in Systems Engineering"
+  },
+  {
+    "Id": "00000000-0000-0000-0000-000000000056",
+    "Apellidos": "Khan",
+    "Nombre": "Nadia",
+    "Grado": "PhD in Natural Language Processing"
+  },
+  {
+    "Id": "00000000-0000-0000-0000-000000000057",
+    "Apellidos": "Vargas",
+    "Nombre": "Felix",
+    "Grado": "MSc in Data Visualization"
+  },
+  {
+    "Id": "00000000-0000-0000-0000-000000000058",
+    "Apellidos": "Ramos",
+    "Nombre": "Rita",
+    "Grado": "MSc in Electronic Systems"
+  },
+  {
+    "Id": "00000000-0000-0000-0000-000000000059",
+    "Apellidos": "Diaz",
+    "Nombre": "Omar",
+    "Grado": "MSc in Cybersecurity Operations"
+  },
+  {
+    "Id": "00000000-0000-0000-0000-00000000005a",
+    "Apellidos": "Browne",
+    "Nombre": "Greta",
+    "Grado": "PhD in Computer Vision"
+  },
+  {
+    "Id": "00000000-0000-0000-0000-00000000005b",
+    "Apellidos": "Newton",
+    "Nombre": "Isaac",
+    "Grado": "MSc in Applied Mathematics"
+  },
+  {
+    "Id": "00000000-0000-0000-0000-00000000005c",
+    "Apellidos": "Vega",
+    "Nombre": "Marta",
+    "Grado": "MSc in Software Product Management"
+  },
+  {
+    "Id": "00000000-0000-0000-0000-00000000005d",
+    "Apellidos": "Fitz",
+    "Nombre": "Leo",
+    "Grado": "PhD in Computational Systems"
+  },
+  {
+    "Id": "00000000-0000-0000-0000-00000000005e",
+    "Apellidos": "Holmes",
+    "Nombre": "Ivy",
+    "Grado": "MSc in User Research"
+  },
+  {
+    "Id": "00000000-0000-0000-0000-00000000005f",
+    "Apellidos": "Bates",
+    "Nombre": "Quinn",
+    "Grado": "MSc in Performance Engineering"
+  },
+  {
+    "Id": "00000000-0000-0000-0000-000000000060",
+    "Apellidos": "Palmer",
+    "Nombre": "Zara",
+    "Grado": "MSc in Business Analytics"
+  },
+  {
+    "Id": "00000000-0000-0000-0000-000000000061",
+    "Apellidos": "Hart",
+    "Nombre": "Kobe",
+    "Grado": "MSc in Cloud Security"
+  },
+  {
+    "Id": "00000000-0000-0000-0000-000000000062",
+    "Apellidos": "Santos",
+    "Nombre": "Luna",
+    "Grado": "PhD in Intelligent Systems"
+  },
+  {
+    "Id": "00000000-0000-0000-0000-000000000063",
+    "Apellidos": "Mendez",
+    "Nombre": "Enzo",
+    "Grado": "MSc in Full Stack Development"
+  },
+  {
+    "Id": "00000000-0000-0000-0000-000000000064",
+    "Apellidos": "Marin",
+    "Nombre": "Sofia",
+    "Grado": "MSc in Data Engineering"
+  }
+]

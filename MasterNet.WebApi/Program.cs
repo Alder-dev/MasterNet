@@ -1,8 +1,12 @@
 using MasterNet.Application;
+using MasterNet.Persistence;
+using MasterNet.WebApi.Extensions;
 
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddApplication();
+
+builder.Services.AddPersistence(builder.Configuration);
 
 builder.Services.AddControllers();
 
@@ -22,6 +26,8 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
+
+await app.SeedDataAuthenticacion();
 
 app.MapControllers();
 
