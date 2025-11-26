@@ -31,6 +31,19 @@
           }
         }
       },
+      "CsvHelper/31.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/CsvHelper.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/CsvHelper.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "FluentValidation/11.5.1": {
         "type": "package",
         "compile": {
@@ -1420,6 +1433,20 @@
           "bin/placeholder/MasterNet.Domain.dll": {}
         }
       },
+      "MasterNet.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "CsvHelper": "31.0.3",
+          "MasterNet.Application": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/MasterNet.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MasterNet.Infrastructure.dll": {}
+        }
+      },
       "MasterNet.Persistence/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
@@ -1473,6 +1500,34 @@
         "lib/netstandard1.3/Bogus.xml",
         "lib/netstandard2.0/Bogus.dll",
         "lib/netstandard2.0/Bogus.xml"
+      ]
+    },
+    "CsvHelper/31.0.3": {
+      "sha512": "ygck8DR4mG/VDA/LgIVVGpEtXXPDVaaNZNJGrOAJ4pckVw4MbAQ3n/u6YFDv3bwlQhlxTmPhCyk5E4hxe96Crg==",
+      "type": "package",
+      "path": "csvhelper/31.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "csvhelper.31.0.3.nupkg.sha512",
+        "csvhelper.nuspec",
+        "lib/net462/CsvHelper.dll",
+        "lib/net462/CsvHelper.xml",
+        "lib/net47/CsvHelper.dll",
+        "lib/net47/CsvHelper.xml",
+        "lib/net48/CsvHelper.dll",
+        "lib/net48/CsvHelper.xml",
+        "lib/net6.0/CsvHelper.dll",
+        "lib/net6.0/CsvHelper.xml",
+        "lib/net7.0/CsvHelper.dll",
+        "lib/net7.0/CsvHelper.xml",
+        "lib/net8.0/CsvHelper.dll",
+        "lib/net8.0/CsvHelper.xml",
+        "lib/netstandard2.0/CsvHelper.dll",
+        "lib/netstandard2.0/CsvHelper.xml",
+        "lib/netstandard2.1/CsvHelper.dll",
+        "lib/netstandard2.1/CsvHelper.xml"
       ]
     },
     "FluentValidation/11.5.1": {
@@ -4039,6 +4094,11 @@
       "path": "../MasterNet.Domain/MasterNet.Domain.csproj",
       "msbuildProject": "../MasterNet.Domain/MasterNet.Domain.csproj"
     },
+    "MasterNet.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../MasterNet.Infrastructure/MasterNet.Infrastructure.csproj",
+      "msbuildProject": "../MasterNet.Infrastructure/MasterNet.Infrastructure.csproj"
+    },
     "MasterNet.Persistence/1.0.0": {
       "type": "project",
       "path": "../MasterNet.Persistence/MasterNet.Persistence.csproj",
@@ -4048,6 +4108,7 @@
   "projectFileDependencyGroups": {
     "net9.0": [
       "MasterNet.Application >= 1.0.0",
+      "MasterNet.Infrastructure >= 1.0.0",
       "Microsoft.AspNetCore.OpenApi >= 9.0.9",
       "Microsoft.EntityFrameworkCore.Design >= 9.0.9",
       "Swashbuckle.AspNetCore >= 9.0.6",
@@ -4088,6 +4149,9 @@
           "projectReferences": {
             "C:\\Users\\ALDER\\Documents\\Freelancer\\dev\\projects\\asp\\MasterNet\\MasterNet.Application\\MasterNet.Application.csproj": {
               "projectPath": "C:\\Users\\ALDER\\Documents\\Freelancer\\dev\\projects\\asp\\MasterNet\\MasterNet.Application\\MasterNet.Application.csproj"
+            },
+            "C:\\Users\\ALDER\\Documents\\Freelancer\\dev\\projects\\asp\\MasterNet\\MasterNet.Infrastructure\\MasterNet.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\ALDER\\Documents\\Freelancer\\dev\\projects\\asp\\MasterNet\\MasterNet.Infrastructure\\MasterNet.Infrastructure.csproj"
             }
           }
         }
@@ -4146,7 +4210,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

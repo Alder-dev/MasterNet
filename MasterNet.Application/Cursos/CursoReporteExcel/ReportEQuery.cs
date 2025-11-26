@@ -13,9 +13,9 @@ public class ReportEQuery
     internal class ReportEQueryHandler : IRequestHandler<ReportEQueryRequest, MemoryStream>
     {
         private readonly MasterNetDbContext _context;
-        private readonly ReportService<Curso> _reportService;
+        private readonly IReportService<Curso> _reportService;
 
-        public ReportEQueryHandler(MasterNetDbContext context, ReportService<Curso> reportService)
+        public ReportEQueryHandler(MasterNetDbContext context, IReportService<Curso> reportService)
         {
             _context = context;
             _reportService = reportService;

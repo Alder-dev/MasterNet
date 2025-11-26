@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "+w5MsYVGZLk=",
+  "dgSpecHash": "ci91oeOKyCY=",
   "success": true,
   "projectFilePath": "C:\\Users\\ALDER\\Documents\\Freelancer\\dev\\projects\\asp\\MasterNet\\MasterNet.WebApi\\MasterNet.WebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ALDER\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\ALDER\\.nuget\\packages\\bogus\\35.4.0\\bogus.35.4.0.nupkg.sha512",
+    "C:\\Users\\ALDER\\.nuget\\packages\\csvhelper\\31.0.3\\csvhelper.31.0.3.nupkg.sha512",
     "C:\\Users\\ALDER\\.nuget\\packages\\fluentvalidation\\11.5.1\\fluentvalidation.11.5.1.nupkg.sha512",
     "C:\\Users\\ALDER\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
     "C:\\Users\\ALDER\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.5.1\\fluentvalidation.dependencyinjectionextensions.11.5.1.nupkg.sha512",
