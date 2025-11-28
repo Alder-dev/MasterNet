@@ -181,3 +181,5 @@ C:\Users\ALDER\Documents\Freelancer\dev\projects\asp\MasterNet\MasterNet.WebApi\
 C:\Users\ALDER\Documents\Freelancer\dev\projects\asp\MasterNet\MasterNet.WebApi\bin\Debug\net9.0\CsvHelper.dll
 C:\Users\ALDER\Documents\Freelancer\dev\projects\asp\MasterNet\MasterNet.WebApi\bin\Debug\net9.0\MasterNet.Infrastructure.dll
 C:\Users\ALDER\Documents\Freelancer\dev\projects\asp\MasterNet\MasterNet.WebApi\bin\Debug\net9.0\MasterNet.Infrastructure.pdb
+C:\Users\ALDER\Documents\Freelancer\dev\projects\asp\MasterNet\MasterNet.WebApi\bin\Debug\net9.0\appsettings.Production.json
+C:\Users\ALDER\Documents\Freelancer\dev\projects\asp\MasterNet\MasterNet.WebApi\bin\Debug\net9.0\appsettings.Staging.json

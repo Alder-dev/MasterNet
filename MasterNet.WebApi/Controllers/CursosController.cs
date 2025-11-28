@@ -1,9 +1,10 @@
+using MasterNet.Application.Core;
 using MasterNet.Application.Cursos.CursoCreate;
-using MasterNet.Application.Cursos.CursoReporteExcel;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using static MasterNet.Application.Cursos.CursoCreate.CursoCreateCommand;
 using static MasterNet.Application.Cursos.CursoReporteExcel.ReportEQuery;
+using static MasterNet.Application.Cursos.GetCurso.GetCursoQuery;
 
 namespace MasterNet.WebApi.Controllers;
 
@@ -19,14 +20,21 @@ public class CursosController : ControllerBase
     }
 
     [HttpPost("create")]
-    public async Task<ActionResult<Guid>> CursoCreate([FromForm] CursoCreateRequest request, CancellationToken cancellationToken)
+    public async Task<ActionResult<Result<Guid>>> CursoCreate([FromForm] CursoCreateRequest request, CancellationToken cancellationToken)
     {
         var command = new CursoCreateCommandRequest(request);
-        var resultado = await _sender.Send(command, cancellationToken);
-        return Ok(resultado);
+        return await _sender.Send(command, cancellationToken);
     }
 
-    [HttpGet("reporte-excel")]
+    [HttpGet("{id}")]
+    public async Task<IActionResult> CursoGet(Guid id, CancellationToken cancellationToken)
+    {
+        var query = new GetCursoQueryRequest { Id = id };
+        var resultado = await _sender.Send(query, cancellationToken);
+        return resultado.IsSuccess ? Ok(resultado.Value) : BadRequest();
+    }
+
+    [HttpGet("report")]
     public async Task<IActionResult> ReporteCSV(CancellationToken cancellationToken)
     {
         var query = new ReportEQueryRequest();
