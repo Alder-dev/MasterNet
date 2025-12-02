@@ -4,10 +4,10 @@ using MasterNet.Application.Calificaciones.GetCalificaciones;
 using MasterNet.Application.Core;
 using MasterNet.Application.Instructores.GetInstructores;
 using MasterNet.Application.Photos.GetPhoto;
-using MasterNet.Application.Precios.GetPrecios;
 using MasterNet.Persistence;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
+using static MasterNet.Application.Precios.GetPrecios.GetPreciosQuery;
 
 namespace MasterNet.Application.Cursos.GetCurso;
 

@@ -6,7 +6,6 @@ using MasterNet.Application.Cursos.GetCurso;
 using MasterNet.Domain;
 using MasterNet.Persistence;
 using MediatR;
-using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
 
 namespace MasterNet.Application.Cursos.GetCursos;
