@@ -121,6 +121,9 @@ namespace MasterNet.Persistence.Migrations
                     b.Property<Guid>("CursoId")
                         .HasColumnType("TEXT");
 
+                    b.Property<string>("PublicId")
+                        .HasColumnType("TEXT");
+
                     b.Property<string>("Url")
                         .HasColumnType("TEXT");
 

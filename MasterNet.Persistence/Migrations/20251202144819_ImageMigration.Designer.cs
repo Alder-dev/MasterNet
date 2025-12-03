@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace MasterNet.Persistence.Migrations
 {
     [DbContext(typeof(MasterNetDbContext))]
-    [Migration("20251113001838_MigracionInicial")]
-    partial class MigracionInicial
+    [Migration("20251202144819_ImageMigration")]
+    partial class ImageMigration
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -122,6 +122,9 @@ namespace MasterNet.Persistence.Migrations
                         .HasColumnType("TEXT");
 
                     b.Property<Guid>("CursoId")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("PublicId")
                         .HasColumnType("TEXT");
 
                     b.Property<string>("Url")

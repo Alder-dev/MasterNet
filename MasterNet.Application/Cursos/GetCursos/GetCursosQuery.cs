@@ -30,7 +30,7 @@ public class GetCursosQuery
 
         public async Task<Result<PagedList<CursoResponse>>> Handle(GetCursosQueryRequest request, CancellationToken cancellationToken)
         {
-            IQueryable<Curso> queryable = _context.Cursos!.Include(x => x.Instructores).Include(x => x.Calificaciones).Include(x => x.Precios);
+            IQueryable<Curso> queryable = _context.Cursos!.Include(x => x.Instructores).Include(x => x.Calificaciones).Include(x => x.Precios).Include(x => x.Photos);
 
             var predicate = ExpressionBuilder.New<Curso>();
 
